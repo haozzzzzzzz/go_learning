@@ -1,7 +1,7 @@
-package main
+package main // 包声明
 
-import "fmt"
+import "fmt" // 引入包
 
-func main() {
+func main() { // 程序入口
 	fmt.Println("Hello, world")
 }
