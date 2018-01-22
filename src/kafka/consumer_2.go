@@ -17,7 +17,7 @@ func main()  {
 	// init consumer
 	brokers := []string{"10.5.1.82:9092"}
 	topics := []string{"service-user-service"}
-	consumer, err := cluster.NewConsumer(brokers, "test-consumer-group", topics, config)
+	consumer, err := cluster.NewConsumer(brokers, "test-consumer-group-2", topics, config)
 	if err != nil {
 		panic(err)
 		return
